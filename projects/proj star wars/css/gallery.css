@@ -1,0 +1,10 @@
+.gallery-section {
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.gallery-section>img {
+    max-width: 400px;
+    margin: 20px;
+}

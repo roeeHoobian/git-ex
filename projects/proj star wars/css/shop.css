@@ -1,0 +1,35 @@
+.shop-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 20px auto;
+}
+
+.card {
+    background-color: black;
+    color: white;
+}
+
+.card img {
+    margin-top: 10px;
+}
+
+.shop-body {
+    justify-content: center;
+}
+
+a {
+    color: white !important;
+}
+
+.modal-content {
+    color: white;
+}
+
+.modal-body {
+    justify-content: center;
+    flex-wrap: wrap;
+    min-width: 270px;
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Fan Art</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/quiz.css">
+</head>
+
+<body>
+    <div class="container-fluid header ">
+        <img class="logo" src="img/star-wars-logo.png" alt="">
+    </div>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <a class="navbar-brand" href="index.html"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto mx-auto">
+                <li class="nav-item ">
+                    <a class="nav-link " href="index.html">HOME <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="shop.html">SHOP</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                ART
+              </a>
+                    <div class="dropdown-menu bg-dark " aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item " href="gallery.html">GALLERY</a>
+                        <a class="dropdown-item active" href="quiz.html">STAR WARS QUIZ</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">CONTACT</a>
+                </li>
+
+            </ul>
+        </div>
+    </nav>
+    <div class="container"></div>
+    <h1>STAR WARS QUIZ</h1>
+    <div class="game-body">
+        <div class="img-container">
+            <img src="" class="img-fluid main-img" alt="Responsive image">
+            <!-- <img src="" class="main-img"> -->
+        </div>
+        <h2 class="question">question goes here</h2>
+        <div class="answers">
+            <button class="answer-1" id="0" onclick="submitAnswer(this)">1</button>
+            <button class="answer-2" id="1" onclick="submitAnswer(this)">2</button>
+        </div>
+    </div>
+    <div class="game-over-msg">
+        <h1>GAME OVER!</h1>
+        <h3 class="game-over-stats"></h3>
+        <button onclick="restart()">RESTART</button>
+    </div>
+    </div>
+
+    <script src="js/quiz.js"></script>
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+</body>
+
+</html>

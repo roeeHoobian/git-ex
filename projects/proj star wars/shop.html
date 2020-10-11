@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Star Wars Fan Art</title>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body onload="onInit()">
+    <div class="container">
+        <div class="container-fluid header  ">
+            <a href="index.html"> <img class="logo " src="img/star-wars-logo.png"></a>
+        </div>
+
+        <nav class="navbar navbar-expand-lg navbar-dark ">
+            <a class="navbar-brand" href="index.html"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto mx-auto">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">HOME <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="shop.html">SHOP</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                ART
+              </a>
+                        <div class="dropdown-menu bg-dark" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="gallery.html">GALLERY</a>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="container shop-section">
+            <div class="container shop-body d-flex flex-lg-nowrap flex-wrap mx-auto">
+            </div>
+
+
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog ">
+                    <div class="modal-content bg-dark">
+                        <div class="modal-header">
+                            <h2 class="modal-title display-5" id="exampleModalLabel"></h2>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+                        </div>
+                        <div class="modal-body d-flex">
+                            <img class="modal-img" src="#" class="img-fluid" alt="Responsive image">
+                            <p class="modal-p"></p>
+
+
+                            <table class="table table-borderless table-dark">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">#</th>
+                                        <th scope="col">Sizes</th>
+                                        <th scope="col">Colors</th>
+                                        <th scope="col">Handle</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <th scope="row">1</th>
+                                        <td>Medium</td>
+                                        <td>Black</td>
+                                        <td>In-stock</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">2</th>
+                                        <td>Large</td>
+                                        <td>Light gray</td>
+                                        <td>In-stock</td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">3</th>
+                                        <td>XL</td>
+                                        <td>Dark gray</td>
+                                        <td>In-stock</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+
+                        </div>
+                        <div class="modal-footer d-flex">
+                            <h3 class="modal-price"></h3>
+                            <button type="button" class="btn btn-primary">Add to cart!</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <div class=".container-fluid footer">
+                <img src="./img/yoda-quiz.png" alt="">
+                <h2 class="display-4 m-5">Are You A True Jedai?</h2>
+                <a href="quiz.html"> <button type="button" class=" btn btn-yoda-quiz btn-dark">STAR WARS QUIZ</button></a>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="lib/jquery/jquery.js"></script>
+    <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/shop-service.js"></script>
+    <script src="js/shop-controller.js"></script>
+</body>
+
+</html>

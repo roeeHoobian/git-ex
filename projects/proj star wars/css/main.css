@@ -1,0 +1,134 @@
+@import './shop.css';
+@import './css/gallery.css';
+
+body {
+    background-color: #343a40;
+    background-image: url(../img/Star\ Wars\ Background-stars.png);
+}
+
+.navbar {
+    background-color: #171717;
+}
+
+.dropdown-menu {
+    color: rgba(255, 255, 255, .25)
+}
+
+.dropdown-item {
+    color: rgba(255, 255, 255, .8)
+}
+
+.dropdown-item:hover {
+    color: white;
+    background-color: transparent;
+}
+
+li:hover {
+    color: white;
+}
+
+li {
+    font-size: 1.1em;
+}
+
+.dropdown-item.active {
+    background-color: transparent;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.logo {
+    width: 180px;
+}
+
+.border {
+    border: 1px solid #dee2e657!important;
+}
+
+.carousel-item>img {
+    max-width: 1200px;
+}
+
+.carousel {
+    min-width: 319px;
+    margin: 10px 0;
+}
+
+.jumbo1 {
+    background-image: url(../img/the-mandalorian.webp);
+    background-size: cover;
+    /* background-color: #1c1c1c; */
+    color: white;
+    min-width: 319px;
+}
+
+.jumbo2 {
+    background: rgb(251, 166, 88);
+    background: radial-gradient(circle, rgba(251, 166, 88, 1) 0%, rgba(59, 122, 128, 1) 46%, rgba(13, 41, 63, 1) 96%);
+    color: whitesmoke;
+    margin: 30px auto;
+    min-width: 319px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: #1f101e;
+    color: whitesmoke;
+    box-shadow: 0px 0px 8px 5px #120b15 inset;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.btn-yoda-quiz {
+    background-color: #694b75;
+    height: 80px;
+    margin: 10px;
+}
+
+.btn-yoda-quiz:hover {
+    background-color: #ab81bb;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-form {
+    padding: 5px;
+    margin: 5px auto;
+    color: white;
+    max-width: 600px;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact-img {
+    display: flex;
+    width: 400px;
+    margin: auto;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #58737c;
+}
+
+a {
+    color: #7195a1;
+}
