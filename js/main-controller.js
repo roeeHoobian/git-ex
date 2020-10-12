@@ -1,5 +1,3 @@
-init();
-
 function init() {
     createProjects();
     renderThumbnails();
